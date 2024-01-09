@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input, button, select {
+    font-family: inherit;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    height: 1024px;
+    color: #FFF;
+    background-image: url(./img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top__content {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.games {
+    background-color: black;
+    display: flex;
+    gap: 32px;
+    
+}
+
+.game__img1 {
+    transition: all 0.3s;
+    box-shadow: 0 0 0.5px blue;
+}
+
+.game__img1:hover {
+    transform: translate(0px) scale(1.05);
+}
+
+.game__img2 {
+    transition: all 0.3s;
+    box-shadow: 0 0 0.5px blue;
+}
+
+.game__img2:hover {
+    transform: translate(0px) scale(1.05);
+}
+.game__img3 {
+    transition: all 0.3s;
+    box-shadow: 0 0 0.5px blue;
+}
+
+.game__img3:hover {
+    transform: translate(0px) scale(1.05);
+}
