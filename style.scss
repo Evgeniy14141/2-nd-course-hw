@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
+} 
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -9,14 +9,15 @@ body {
 
 input, button, select {
     font-family: inherit;
-}
+} 
 
 .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 700px);
+    padding-right: calc(50% - 700px);
 }
 
 .top {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     height: 1024px;
     color: #FFF;
     background-image: url(./img/top.jpg);
@@ -27,17 +28,15 @@ input, button, select {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.top__content {
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-}
+    
+    &__content {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+} 
 
 .header {
     color: #FFF;
@@ -52,11 +51,10 @@ input, button, select {
     justify-content: center;
     flex-shrink: 0;
     padding-top: 217px;
-    padding-left: 120.22px;
+    padding-left: 125.22px;
 }
 
-
-
+ 
 .heading {
     color: #FFF;
     font-style: normal;
@@ -68,16 +66,17 @@ input, button, select {
     height: 64px;
     padding-top: 32px;
     padding-left: 120.22px;
-}
-.fat {
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-}
 
-    
+    &__fat {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+}
+} 
+ 
+
 .top-button {
     color: #FFF;
     font-size: 18px;
@@ -103,7 +102,7 @@ input, button, select {
 .heading-button {
     padding-left: 120.22px;
     padding-top: 9.8px;
-}
+} 
 
 .games {
     background-color: black;
@@ -111,8 +110,9 @@ input, button, select {
     gap: 32px;
     padding-top: 128px;
     padding-bottom: 128px;
+    flex-wrap: wrap; 
     
-}
+} 
 
 .game__img1 {
     transition: all 0.3s;
@@ -120,7 +120,7 @@ input, button, select {
 }
 
 .game__img1:hover {
-    transform: translate(0px) scale(1.05);
+    transform: translate(0px) scale(1.03);
     border-radius: 16px;
     border: 3px solid #44D2FF;
 }
@@ -131,17 +131,19 @@ input, button, select {
 }
 
 .game__img2:hover {
-    transform: translate(0px) scale(1.05);
+    transform: translate(0px) scale(1.03);
     border-radius: 16px;
     border: 3px solid #44D2FF;
 }
 .game__img3 {
     transition: all 0.3s;
     box-shadow: 0 0 0.5px #000000;
-}
+} 
 
 .game__img3:hover {
-    transform: translate(0px) scale(1.05);
+    transform: translate(0px) scale(1.03);
     border-radius: 16px;
     border: 3px solid #44D2FF;
-}
+} 
+
+@import 'mobile'; 
