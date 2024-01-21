@@ -18,7 +18,7 @@ alert(`Год выпуска первого айфона ${firstIphone}`);
 //Задание 3:
 
 let author = 'Brendan Eich';
-(`${author}-создатель Js`);
+alert(`${author}-создатель Js`);
 
 
 
@@ -47,8 +47,7 @@ alert(division);
 
 //Задание 5:
 
-let result = ( 2 ** 5 );
-
+let result = 2 ** 5;
 alert(result);
 
 
@@ -85,23 +84,12 @@ alert(age);
 const user = { 
     name: 'Homer',
     age: 33,
-    isAdmin: true,
-//Задание 9.1:    
-    cityOfResidence: 'Springfild',
-//Задание 9.2:
-    age: 34,
-}
-console.log(user.name); //'Homer'
-console.log(user.age); //34
-user.isAdmin = true;
-console.log(user.cityOfResidence); //'Springfild'
-//Задание 9.3
-delete user ['cityOfResidence'];
-
-//Задание 9.4
-let info = prompt("Что вы хотите узнать о пользователе?");
-console.log(user[info]);
-alert(user[info]);
+    isAdmin: true}  //Задание 9.1   
+    user["city of residence"]='Springfild';
+    user.age = 34;  //Задание 9.2
+    delete user["city of residence"];  //Задание 9.3
+    let info = prompt("Что вы хотите узнать о пользователе?"); //Задание 9.4
+    alert(user[info]);
 
 
 
@@ -112,4 +100,4 @@ let greeting= `Привет ${names}!`;
 alert (greeting);
 let city= (prompt ("Где ты живёшь?"));
 let hello= `Приветствую тебя ${names} из города ${city}`
-alert (hello)
+alert (hello);
