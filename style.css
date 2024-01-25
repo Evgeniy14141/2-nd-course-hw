@@ -73,7 +73,7 @@ input, button, select {
       font-style: normal;
       font-weight: 700;
       line-height: 32px;
-}
+  }
 } 
 
 
@@ -105,11 +105,12 @@ input, button, select {
 } 
 
 .games {
-  background-color: black;
+  background: #000915;
   display: flex;
   gap: 32px;
   padding-top: 128px;
   padding-bottom: 128px;
+  padding-left: 120px;
   flex-wrap: wrap; 
   
 } 
@@ -145,6 +146,409 @@ input, button, select {
   border-radius: 16px;
   border: 3px solid #44D2FF;
 } 
+
+
+.seasons_of_years{
+  background: #000915;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+}
+
+.seasons {
+  width: 584px;
+  height: 235.6px;
+  background: #000915;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding-left: 120px;
+  padding-top: 282px;
+}
+.seasons__header {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+.seasons__heading {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+  }
+.seasons__button {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #9C0332;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 234.063px;
+    height: 48.603px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    transition: all 0.3s;
+    }
+.seasons__button:hover {
+    background: #EB443F;
+}
+
+.video_game {
+  width: 485px;
+  height: 333px;
+  padding-top: 233.5px;
+}
+.head_woman {
+  padding-left: 37.32px;
+  padding-top: 57.58px;
+  position: absolute;
+}
+.hair_woman {
+  padding-left: 36.97px;
+  padding-top: 55.97px;
+  position: absolute;
+}
+.neck_woman {
+  padding-left: 39.16px;
+  padding-top: 76.27px;
+  position: absolute;
+}
+.body_woman {
+  padding-left: 32.28px;
+  padding-top: 86.32px;
+  position: absolute;
+}
+.shoulder_woman {
+  padding-left: 25.67px;
+  padding-top: 102.92px;
+  position: absolute;
+}
+.shoulder_woman2 {
+  padding-left: 66.8px;
+  padding-top: 87.01px;
+  position: absolute;
+}
+.right_hand_woman {
+  padding-left: 0px;
+  padding-top: 120.76px;
+  position: absolute;
+}
+.left_hand_woman {
+  padding-left: 67.77px;
+  padding-top: 105.8px;
+  position: absolute;
+}
+.right_leg_woman {
+  padding-left: 0.8px;
+  padding-top: 147.63px;
+  position: absolute;
+}
+.ankle_woman {
+  padding-left: 31.06px;
+  padding-top: 240.34px;
+  position: absolute;
+}
+.left_leg_woman {
+  padding-left: 31px;
+  padding-top: 125.93px;
+  position: absolute;
+}
+.foot_woman {
+  padding-left: 18.24px;
+  padding-top: 247.55px;
+  position: absolute;
+}
+.earphone_right {
+  padding-left: 61.1px;
+  padding-top: 156.32px;
+  position: absolute;
+}
+.earphone_right1 {
+  padding-left: 72.33px;
+  padding-top: 149.77px;
+  position: absolute;
+}
+
+
+
+
+.joystick {
+  padding-left: 152.59px;
+  padding-top: 163.57px;
+  position: absolute;
+}
+.joystick_panel {
+  padding-left: 239.32px;
+  padding-top: 166.31px;
+  position: absolute;
+}
+.joystick_left_panel {
+  padding-left: 170.27px;
+  padding-top: 172.27px;
+  position: absolute;
+}
+.button_left {
+  padding-left: 181.1px;
+  padding-top: 197.61px;
+  position: absolute;
+}
+.button_right {
+  padding-left: 204.45px;
+  padding-top: 197.6px;
+  position: absolute;
+}
+.button_top {
+  padding-left: 195.51px;
+  padding-top: 183.13px;
+  position: absolute;
+}
+.button_bottom {
+  padding-left: 195.51px;
+  padding-top: 206.58px;
+  position: absolute;
+}
+.joystick_left {
+  padding-left: 221.46px;
+  padding-top: 215.34px;
+  position: absolute;
+}
+.joystick_left1 {
+  padding-left: 229.03px;
+  padding-top: 222.94px;
+  position: absolute;
+}
+.joystick_left2 {
+  padding-left: 233.72px;
+  padding-top: 227.64px;
+  position: absolute;
+}
+.joystick_button_top_left {
+  padding-left: 227.78px;
+  padding-top: 171.38px;
+  position: absolute;
+}
+.hole1 {
+  padding-left: 272.86px;
+  padding-top: 217.5px;
+  position: absolute;
+}
+.hole2 {
+  padding-left: 278.17px;
+  padding-top: 217.5px;
+  position: absolute;
+}
+.hole3 {
+  padding-left: 282.39px;
+  padding-top: 217.51px;
+  position: absolute;
+}
+.hole4 {
+  padding-left: 287.44px;
+  padding-top: 217.51px;
+  position: absolute;
+}
+.hole5 {
+  padding-left: 291.62px;
+  padding-top: 217.5px;
+  position: absolute;
+}
+.hole6 {
+  padding-left: 275.34px;
+  padding-top: 221.06px;
+  position: absolute;
+}
+.hole7 {
+  padding-left: 279.87px;
+  padding-top: 221.13px;
+  position: absolute;
+}
+.hole8 {
+  padding-left: 284.65px;
+  padding-top: 221.13px;
+  position: absolute;
+}
+.hole9 {
+  padding-left: 289.49px;
+  padding-top: 221.06px;
+  position: absolute;
+}
+.hole10 {
+  padding-left: 277.46px;
+  padding-top: 224.25px;
+  position: absolute;
+}
+.hole11 {
+  padding-left: 282.39px;
+  padding-top: 224.38px;
+  position: absolute;
+}
+.hole12 {
+  padding-left: 287.37px;
+  padding-top: 224.25px;
+  position: absolute;
+}
+.button_center {
+  padding-left: 277.72px;
+  padding-top: 234.15px;
+  position: absolute;
+}
+.joystick_right {
+  padding-left: 300.06px;
+  padding-top: 215.34px;
+  position: absolute;
+}
+.joystick_right1 {
+  padding-left: 307.63px;
+  padding-top: 222.94px;
+  position: absolute;
+}
+.joystick_right2 {
+  padding-left: 312.32px;
+  padding-top: 227.64px;
+  position: absolute;
+}
+.joystick_right_panel {
+  padding-left: 333.95px;
+  padding-top: 172.27px;
+  position: absolute;
+}
+.button_left1 {
+  padding-left: 338.64px;
+  padding-top: 194.35px;
+  position: absolute;
+}
+.button_right1 {
+  padding-left: 376.13px;
+  padding-top: 193.26px;
+  position: absolute;
+}
+.button_top1 {
+  padding-left: 357.02px;
+  padding-top: 175.89px;
+  position: absolute;
+}
+.button_bottom1 {
+  padding-left: 358.47px;
+  padding-top: 212.44px;
+  position: absolute;
+}
+.joystick_button_top_right {
+  padding-left: 333.06px;
+  padding-top: 171.38px;
+  position: absolute;
+}
+.button_left1_1 {
+  padding-left: 342.42px;
+  padding-top: 198.69px;
+  position: absolute;
+}
+.button_right1_1 {
+  padding-left: 379.38px;
+  padding-top: 196.52px;
+  position: absolute;
+}
+.button_top1_1 {
+  padding-left: 359.82px;
+  padding-top: 178.81px;
+  position: absolute;
+}
+.button_bottom1_1 {
+  padding-left: 362.72px;
+  padding-top: 216.79px;
+  position: absolute;
+}
+.button_bottom1_2 {
+  padding-left: 362.72px;
+  padding-top: 216.8px;
+  position: absolute;
+}
+.left_earphone {
+  padding-left: 171.64px;
+  padding-top: 40.26px;
+  position: absolute;
+}
+.left_earphone1 {
+  padding-left: 165.21px;
+  padding-top: 52.8px;
+  position: absolute;
+}
+.head_man {
+  padding-left: 413.77px;
+  padding-top: 107.22px;
+  position: absolute;
+}
+.hair_man {
+  padding-left: 409.84px;
+  padding-top: 99.86px;
+  position: absolute;
+}
+.neck_man {
+  padding-left: 416.38px;
+  padding-top: 124.44px;
+  position: absolute;
+}
+.body_man {
+  padding-left: 400.71px;
+  padding-top: 136.79px;
+  position: absolute;
+}
+.shoulder_man {
+  padding-left: 387.78px;
+  padding-top: 140.54px;
+  position: absolute;
+}
+.shoulder_man1 {
+  padding-left: 443.97px;
+  padding-top: 146.15px;
+  position: absolute;
+}
+.right_hand_man {
+  padding-left: 346.96px;
+  padding-top: 147.98px;
+  position: absolute;
+}
+.left_hand_man {
+  padding-left: 439.81px;
+  padding-top: 173.48px;
+  position: absolute;
+}
+.shorts_man {
+  padding-left: 402.21px;
+  padding-top: 218.39px;
+  position: absolute;
+}
+.right_leg_man {
+  padding-left: 405.69px;
+  padding-top: 245.72px;
+  position: absolute;
+}
+.left_leg_man {
+  padding-left: 435.4px;
+  padding-top: 245.72px;
+  position: absolute;
+}
+.foot_right_man {
+  padding-left: 387.92px;
+  padding-top: 315.86px;
+  position: absolute;
+}
+.foot_left_man {
+  padding-left: 442.64px;
+  padding-top: 315.53px;
+  position: absolute;
+}
+
+
+
 
 @media (max-width: 767px) {
   .center {
@@ -232,4 +636,76 @@ input, button, select {
   position: relative;
 }
 
+.seasons {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 51px;
 }
+.seasons__header {
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 66px;
+  }
+.seasons__heading {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px; 
+  width: 343px;
+  height: 66px;
+ }
+.seasons {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 51px;
+}
+.seasons__header {
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+  }
+.seasons__heading {
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px; 
+  width: 343px;
+  height: 66px;
+  padding-left: 16px;
+  }
+  .seasons-button {
+    padding-left: 70.47px;
+  } 
+  .video_game {
+    padding-top: 51px;
+  }
+  .seasons_of_years {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .video_game {
+    padding-left: 16px;
+  }
+
+  .games {
+    padding-left: 16px;
+  }
+
+
+}
+
