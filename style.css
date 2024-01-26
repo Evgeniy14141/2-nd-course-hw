@@ -96,8 +96,8 @@ input, button, select {
 }
 
 .top-button:hover {
-      background: #EB443F;
-  }
+  background: #EB443F;
+}
 
 .heading-button {
   padding-left: 120.22px;
@@ -112,7 +112,6 @@ input, button, select {
   padding-bottom: 128px;
   padding-left: 120px;
   flex-wrap: wrap; 
-  
 } 
 
 .game__img1 {
@@ -148,7 +147,7 @@ input, button, select {
 } 
 
 
-.seasons_of_years{
+.seasons_of_years {
   background: #000915;
   height: 800px;
   display: flex;
@@ -173,39 +172,44 @@ input, button, select {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  }
+}
 .seasons__heading {
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 32px;
-  }
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
 .seasons__button {
-    color: #FFF;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background: #9C0332;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 30px;
-    width: 234.063px;
-    height: 48.603px;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    transition: all 0.3s;
-    }
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #9C0332;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 234.063px;
+  height: 48.603px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  transition: all 0.3s;
+  }
 .seasons__button:hover {
-    background: #EB443F;
+  background: #EB443F;
 }
 
 .video_game {
   width: 485px;
   height: 333px;
   padding-top: 233.5px;
+}
+.all_head_woman {
+  padding-left: 27.67px;
+  padding-top: 53.84px;
+  position: absolute;
 }
 .head_woman {
   padding-left: 37.32px;
@@ -277,9 +281,6 @@ input, button, select {
   padding-top: 149.77px;
   position: absolute;
 }
-
-
-
 
 .joystick {
   padding-left: 152.59px;
@@ -553,39 +554,38 @@ input, button, select {
 @media (max-width: 767px) {
   .center {
       
-      padding-left: 16px;
-      padding-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .header {
-      padding-top: 238.69px;
-      height: 735px;
-      display: flex;
-      width: 343px;
-      height: 77.436px;
-      flex-direction: column;
-      justify-content: center;
-      flex-shrink: 0;
-      color: #FFF;
-      text-align: center;
-      font-size: 32px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      padding-left: 16px;
-          } 
+    padding-top: 238.69px;
+    height: 735px;
+    display: flex;
+    width: 343px;
+    height: 77.436px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 16px;
+  } 
   
 
-.top {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(<path-to-image>), lightgray -240.259px 0px / 294% 100% no-repeat;
-  flex-shrink: 0;
-  background-image: url(./img/top_mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; 
+  .top {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(<path-to-image>), lightgray -240.259px 0px / 294% 100% no-repeat;
+    flex-shrink: 0;
+    background-image: url(./img/top_mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
 
-
-  &__content {
+    &__content {
       color: #FFF;
       text-align: center;
       font-size: 32px;
@@ -595,97 +595,96 @@ input, button, select {
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
   }
-}
-.heading{
-  width: 343px;
-  height: 66px;
-  color: #FFF;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 22px; /* 157.143% */
-  padding-left: 16px;
+  .heading {
+    width: 343px;
+    height: 66px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; 
+    padding-left: 16px;
 
-  &__fat {
+    &__fat {
       color: #FFF;
       font-size: 14px;
       font-style: normal;
       font-weight: 700;
       line-height: 22px;
-}
-}
-
-.heading-button {
-  padding-left: 70.47px;
-} 
-
-.game__img1 {
-  width: 100%;
-  position: relative;
-}
-
-.game__img2 {
-  width: 100%;
-  position: relative;
-}
-
-.game__img3 {
-  width: 100%;
-  position: relative;
-}
-
-.seasons {
-  padding-left: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 51px;
-}
-.seasons__header {
-  color: #FFF;
-  text-align: center;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding-left: 66px;
+    }
   }
-.seasons__heading {
-  color: #FFF;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 22px; 
-  width: 343px;
-  height: 66px;
- }
-.seasons {
-  padding-left: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 51px;
-}
-.seasons__header {
-  color: #FFF;
-  text-align: center;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  
+
+  .heading-button {
+    padding-left: 70.47px;
+  } 
+
+  .game__img1 {
+    width: 100%;
+    position: relative;
   }
-.seasons__heading {
-  color: #FFF;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 22px; 
-  width: 343px;
-  height: 66px;
-  padding-left: 16px;
+
+  .game__img2 {
+    width: 100%;
+    position: relative;
+  }
+
+  .game__img3 {
+    width: 100%;
+    position: relative;
+  }
+
+  .seasons {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 51px;
+  }
+  .seasons__header {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 66px;
+  }
+  .seasons__heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; 
+    width: 343px;
+    height: 66px;
+  }
+  .seasons {
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 51px;
+  }
+  .seasons__header {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .seasons__heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; 
+    width: 343px;
+    height: 66px;
+    padding-left: 16px;
   }
   .seasons-button {
     padding-left: 70.47px;
@@ -705,7 +704,6 @@ input, button, select {
   .games {
     padding-left: 16px;
   }
-
 
 }
 
