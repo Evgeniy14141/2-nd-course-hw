@@ -548,6 +548,11 @@ input, button, select {
   position: absolute;
 }
 
+@media (min-width: 767px) and (max-width: 1950px){
+.video_game_mobile {
+  display: none;
+  }
+}
 
 
 
@@ -698,6 +703,10 @@ input, button, select {
   }
 
   .video_game {
+    display: none;
+  }
+
+  .video_game_mobile {
     padding-left: 16px;
   }
 
