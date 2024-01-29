@@ -1,23 +1,19 @@
 //Задание 1:
 //Первый способ
-let a = 4;
-let b = 8;
-
-if (a < b) {
-
-    function printMessage() {
-        console.log(a);
-    }
-
-} else {
-
-    function printMessage() {
-        console.log(b);
-    }
-
+function twoNumbers() {
+    let a = 4;
+    let b = 8;
+    
+        if (a < b) {
+            console.log(a);
+    
+        } else {
+            console.log(b);
+        }
 }
 
-printMessage();
+twoNumbers();
+
 
 //Второй способ
 console.log(Math.min(8, 4));
@@ -26,121 +22,110 @@ console.log(Math.min(8, 4));
 
 //Задание 2:
 
-let p = prompt('Введите любое число');
-
-if (p % 2 == 0) {
-
-    function printMessage() {
+function oddEven() {
+    let p = prompt('Введите любое число');
+    
+        if (p % 2 == 0) {
+    
         console.log('Число чётное');
-    }
-
-} else {
-
-    function printMessage() {
+    
+        } else {
         console.log('Число не чётное');
-    }
-
+        }
+    
 }
-
-printMessage();
+    
+oddEven();
 
 
 
 //Задание 3:
 
 //Задание 3.1:
-let l = prompt('Введите любое число');
-    
-function printMessage() {
-        return(l**2);
-    
-}
+function squareOfNumber() {
 
-printMessage();
+    let l = prompt('Введите любое число');
+            return(l**2);
+        
+}
+    
+squareOfNumber();
+
+
 
 //Задание 3.2:
-let с = prompt('Введите любое число');
-    
-function printMessage() {
-        return(Math.sqrt(с));
-    
-}
+function rootOfNumber() {
 
-printMessage();
+    let с = prompt('Введите любое число');
+            return(Math.sqrt(с));
+        
+}
+    
+rootOfNumber();
+
+
 
 
 //Задание 4:
 
-let age = prompt("Сколько Вам лет?");
 
+function yourAge() {
 
-if (age < 0) {
-
-    function printMessage() {
-        console.log("Вы ввели неправильное число");
+    let age = prompt("Сколько Вам лет?");
+    
+        if (age < 0) {
+            console.log("Вы ввели неправильное число");
+    
+        } else if (age < 12) {
+            console.log("Привет, друг!");
+    
+        } else  {
+            console.log("Добро пожаловать!");
+        }
+    
     }
+    
+    yourAge();
 
-} 
-    else if (age < 12) {
-
-    function printMessage() {
-        console.log("Привет, друг!");
-    }
-
-} else {
-
-    function printMessage() {
-        console.log("Добро пожаловать!");
-    }
-
-}
-
-printMessage();
 
 
 
 //Задание 5:
 
-let v = prompt('Введите первое число');
-let z = prompt('Введите второе число');
+function numberFilter() {
 
-
-if (isNaN(v) || isNaN(z)) {
-
-    function printMessage() {
-        return("Одно или оба значения не являются числом");
+    let v = prompt('Введите первое число');
+    let z = prompt('Введите второе число');
+    
+    
+        if (isNaN(v) || isNaN(z)) {
+            return("Одно или оба значения не являются числом");
+    
+        } else 
+            return(v * z);
+    
     }
+    
+    numberFilter();
 
-} else {
-
-    function printMessage() {
-        return(v * z);
-    }
-
-}
-
-printMessage();
 
 
 //Задание 6:
 
-let m = prompt('Введите число');
+function cubeOfNumber() {
 
-if (isNaN(m)) {
-
-    function printMessage() {
-        return('Переданный параметр не является числом');
-    }
-
-} else {
-
-    function printMessage() {
-        return(`${m} в кубе равняется ${(m ** 2)}`);
-    }
-
+    let m = prompt('Введите число');
+    
+        if (isNaN(m)) {
+            return('Переданный параметр не является числом');
+    
+        } else
+            return(`${m} в кубе равняется ${(m ** 2)}`);
+    
 }
+    
+cubeOfNumber();
 
-printMessage();
 
 
 //Задание 7:
