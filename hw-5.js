@@ -1,18 +1,18 @@
 //Задание 1:
 //Первый способ
-function twoNumbers() {
-    let a = 4;
-    let b = 8;
+function twoNumbers(a, b) {
     
-        if (a < b) {
-            console.log(a);
-    
-        } else {
-            console.log(b);
-        }
+    if (a < b) {
+         return a;
+
+    } else {
+        return b;
+    }
 }
 
-twoNumbers();
+console.log(twoNumbers(8, 6));
+alert(twoNumbers(33, 56));
+twoNumbers(4, 5)
 
 
 //Второй способ
@@ -27,10 +27,10 @@ function oddEven() {
     
         if (p % 2 == 0) {
     
-        console.log('Число чётное');
+        return ('Число чётное');
     
         } else {
-        console.log('Число не чётное');
+        return ('Число не чётное');
         }
     
 }
@@ -74,13 +74,13 @@ function yourAge() {
     let age = prompt("Сколько Вам лет?");
     
         if (age < 0) {
-            console.log("Вы ввели неправильное число");
+            return ("Вы ввели неправильное число");
     
         } else if (age < 12) {
-            console.log("Привет, друг!");
+           return ("Привет, друг!");
     
         } else  {
-            console.log("Добро пожаловать!");
+            return ("Добро пожаловать!");
         }
     
     }
@@ -131,11 +131,11 @@ cubeOfNumber();
 //Задание 7:
 
 function getArea() {
-	console.log(Math.PI * this.radius ** 2);
+	return (Math.PI * this.radius ** 2);
 };
 
 function getPerimeter() {
-	console.log(2 * Math.PI * this.radius);
+	return (2 * Math.PI * this.radius);
 };
 
 const circle1 = {
@@ -150,10 +150,13 @@ const circle2 = {
     getPerimeter: getPerimeter,
 }
 
-circle1.getArea();
-circle1.getPerimeter(); 
-circle2.getArea();
-circle2.getPerimeter(); 
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter()); 
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
+//Либо можно вывести без console.log, но будет выходить по одному значению, например:
+circle1.getArea()
+
 
 
 //Задание 8:
