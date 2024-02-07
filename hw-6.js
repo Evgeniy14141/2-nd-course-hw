@@ -70,6 +70,10 @@ let answ = false;
 do {
     let quo = prompt('Введите число');
 
+    if (quo === null) {
+        break;
+    }
+
     for (let i = 0; i < numbi.length; i++) {
         if (numbi[i] === Number(quo)) {
             answ = true;
@@ -116,7 +120,7 @@ for (let i = 0; i < sequentialArray.length - 1; i++) {
   
 let fiveArr = [1, 2, 3, 4, 5];
   
-let = squareNum =fiveArr.map(xx=>(xx ** 2))
+let squareNum = fiveArr.map(xx=>(xx ** 2))
   
 console.log(squareNum);
 	
