@@ -117,13 +117,17 @@ for (let i = 0; i < sequentialArray.length - 1; i++) {
 
 
 // Задание 11: 
+
+function squareNum (array) {
+    return array.map(xx=>(xx ** 2));
+}
+ 
+console.log(squareNum([1, 2, 3, 4, 5]));
+
+//Либо вот так:
+const squareNum = (array) => array.map(xx=>(xx ** 2));
+    squareNum([1, 2, 3, 4, 5])
   
-let fiveArr = [1, 2, 3, 4, 5];
-  
-let squareNum = fiveArr.map(xx=>(xx ** 2))
-  
-console.log(squareNum);
-	
 
 
 // Задание 12:
