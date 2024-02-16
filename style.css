@@ -548,6 +548,48 @@ input, button, select {
   position: absolute;
 }
 
+.gameMemory_top {
+  background: #000915;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+}
+
+.gameMemory {
+  width: 481px;
+  height: 322px;
+  left: 120px;
+  right: 839px;
+  top: 2619px;
+  bottom: 1119px;
+  padding-left: 120px;
+  padding-top: 239px;
+ 
+  
+}
+
+.gameMemory__header {
+  width: 588px;
+  height: 235.6px;
+  left: 736px;
+  right: 116px;
+  top: 2662.2px;
+  bottom: 1162.2px;
+  padding-top: 282.2px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.gameMemory_picture {
+  background-image: url(./img/joystick2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 @media (min-width: 767px) and (max-width: 5650px){
 .video_game_mobile {
   display: none;
@@ -704,6 +746,8 @@ input, button, select {
   .seasons_of_years {
     display: flex;
     flex-wrap: wrap;
+    gap: 64px;
+    height: 653.61px;
   }
 
   .video_game {
@@ -717,6 +761,22 @@ input, button, select {
   .games {
     padding-left: 16px;
   }
+
+  .gameMemory_top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    background: #000915;
+  }
+    
+  .gameMemory {
+    display: none;
+  }
+
+  .gameMemory__header {
+    padding-top: 51px;
+  }
+
 
 }
 
