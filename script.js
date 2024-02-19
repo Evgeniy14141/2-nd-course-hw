@@ -1,3 +1,7 @@
+
+const block = document.querySelector('#block');
+block.addEventListener('click',seasonsOfYears);
+
 function seasonsOfYears() {
 
     let month = prompt("Введите месяц");
@@ -21,7 +25,7 @@ function seasonsOfYears() {
 seasonsOfYears();
 
 
-
+block.addEventListener('click',gameMemory);
 
 function gameMemory() {
 
@@ -41,6 +45,7 @@ function gameMemory() {
         }
         return array;
     }
+    
 
     const yourArray = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
     const myArray = yourArray.map(element => {
@@ -70,10 +75,13 @@ function gameMemory() {
     let answ = false;
     let answer = false;
 
+    
 
     do {
-        let quo = prompt('Чему ровнялся первый элемент массива');
-        let quos = prompt('Чему ровнялся последний элемент массива');
+        let quo = String(prompt('Чему ровнялся первый элемент массива'));
+        quo = quo.toLocaleLowerCase();
+        let quos = String(prompt('Чему ровнялся последний элемент массива'));
+        quos = quos.toLocaleLowerCase();
 
         if (quo === null) {
             break;

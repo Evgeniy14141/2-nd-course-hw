@@ -1,7 +1,7 @@
 //Задание 1:
 
 let str = 'js'; 
-console.log(new String(str).toUpperCase());
+console.log(str.toUpperCase());
 
 
 //Задание 2:
@@ -16,16 +16,16 @@ function filtersItems (elementArray,elementLetter) {
 
 //Задание 3:
 
-Array.prototype.max = function() {
-    return Math.max.apply(null, this);
-};
-Array.prototype.min = function() {
-    return Math.min.apply(null, this);
-};
-let numArr = [52,53,49,77,21,32];
+let number = 32.58884;
 
-console.log(`Max value is: ${numArr.max()}` +
-    `\nMin value is: ${numArr.min()}`);
+let roundedDown = Math.floor(number);
+console.log(roundedDown); 
+
+let roundedUp = Math.ceil(number);
+console.log(roundedUp); 
+
+let roundedClosest = Math.round(number);
+console.log(roundedClosest); 
 
 
 
@@ -50,24 +50,17 @@ getRandomIntInclusive(1, 10)
 
 //Задание 6:
 
-function getRandomArrNumbers(max,min) {
-  arr = [];
-  min = 0;
-  for (i = 0; i < max; i++) {
-      x = Math.floor(Math.random() * max) + min;
-      if (arr.includes(x) == true) {
-          i = i -1;
-      } else {
-          if (x > max == false) {
-              arr.push(x);
-          }
-      }
+function getRandomArrNumbers(num) {
+  const length = Math.floor(num / 2); 
+  let result = [];
+  for (let i = 0; i < length; i++) {
+      result.push(Math.floor(Math.random() * (num + 1))); 
   }
-  return arr.filter((el, i) => i >= arr.length/2);
+  return result;
 }
 
-getRandomArrNumbers(7)
-
+console.log(getRandomArrNumbers(7)); 
+console.log(getRandomArrNumbers(12));
 
 //Задание 7:
 
