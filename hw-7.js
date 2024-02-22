@@ -27,13 +27,24 @@ console.log(roundedUp);
 let roundedClosest = Math.round(number);
 console.log(roundedClosest); 
 
+//либо так:
+Math.floor(32.58884) // 32
+Math.ceil(32.58884) // 33
+Math.round(32.58884) // 33
+
 
 
 //Задание 4: 
 
-Math.floor(32.58884) // 32
-Math.ceil(32.58884) // 33
-Math.round(32.58884) // 33
+let numbers = [52, 53, 49, 77, 21, 32];
+
+
+let minNumber = Math.min(...numbers);
+let maxNumber = Math.max(...numbers);
+
+
+console.log("Наименьшее число:", minNumber);
+console.log("Наибольшее число:", maxNumber);
 
 
 

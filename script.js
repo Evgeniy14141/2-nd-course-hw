@@ -1,9 +1,10 @@
+//const block = document.querySelector('#block');
 
-const block = document.querySelector('#block');
-block.addEventListener('click',seasonsOfYears);
+//block.addEventListener('click');
+
 
 function seasonsOfYears() {
-
+  
     let month = prompt("Введите месяц");
 
     if (month == 1 || month == 2 || month == 12) {
@@ -22,10 +23,11 @@ function seasonsOfYears() {
     }
 }
 
-seasonsOfYears();
+//block.seasonsOfYears();
 
 
-block.addEventListener('click',gameMemory);
+
+//Игра на память:
 
 function gameMemory() {
 
@@ -113,4 +115,7 @@ function gameMemory() {
     } while (!answ, !answer)
 }
 
-gameMemory()
+//gameMemory();
+
+
+//block.addEventListener('click',gameMemory);
